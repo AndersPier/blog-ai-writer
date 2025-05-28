@@ -1,0 +1,20 @@
+# filename: data.yaml
+#
+# Rules:
+#  There can be:
+#  - multiple categories, each category MUST HAVE unique names
+#  - multiple topics, per category, each topic MUST HAVE unique names as other topics
+#  - multiple subtopics, per topic, each subtopic can have similar / same names as other subtopics
+
+categories:
+  - name: "Category name"
+    description: "Category description"
+    score: 5 # Score 1-5, where 5 is the highest, and 1 is the lowest, for the category to write about, measured on how successful, popular, relevant, potential, trending, etc.
+    topics:
+      - name: "Topic name under each category"
+        description: "Topic description under each category"
+        score: 5 # Score 1-5, where 5 is the highest, and 1 is the lowest, for the topic to write about, measured on how successful, popular, relevant, potential, trending, etc.
+        subtopics:
+          - name: "Subtopic name under each topic"
+            description: "Subtopic description under each topic"
+            score: 5 # Score 1-5, where 5 is the highest, and 1 is the lowest, for the subtopic to write about, measured on how successful, popular, relevant, potential, trending, etc.
