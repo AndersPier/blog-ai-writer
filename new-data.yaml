@@ -1088,7 +1088,7 @@ categories:
             score: 3
 
       - name: "Restaurant Reviews & Food Culture"
-        descrip‌tion: "Dining experiences, restaurant analysis, food industry trends, and culinary culture exploration for food enthusiasts."
+        description: "Dining experiences, restaurant analysis, food industry trends, and culinary culture exploration for food enthusiasts."
         score: 4
         subtopics:
           - name: "Local Restaurant Discovery & Reviews"
